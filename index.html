@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+
+                <div class="menu">
+                    <nav class="menu__nav">
+                        <a href="#" class="menu__item">О нас</a>
+                        <a href="#" class="menu__item">Продукция</a>
+                        <a href="#" class="menu__item">Контакты</a>
+                        <a href="#" class="menu__item">Блог</a>
+                    </nav>
+                    <button class="menu__button">
+
+                    </button>
+                </div>
+                <div class="basket">
+                    <span class="basket__caption">Корзина</span>
+                    <span class="basket__num js-basket-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="news">
+                <button class="js-order" type="button" name="button">
+                    Заказать
+                </button>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="product__img">
+                    <img src="img/cherepica.jpg" alt="">
+                    </div>
+                    <div class="product__title js-product-title">
+                        Продукт 1
+                    </div>
+                    <div class="product__price">
+                        20 грн
+                    </div>
+                    <button class="product__button js-product-button">
+                        Купить
+                    </button>
+                </div>
+                <div class="product">
+                    <div class="product__img">
+                        <img src="img/profnastil.jpg" alt="">
+                    </div>
+                    <div class="product__title js-product-title">
+                        Продукт 2
+                    </div>
+                    <div class="product__price">
+                        10 грн
+                    </div>
+                    <button class="product__button js-product-button">
+                        Купить
+                    </button>
+                </div>
+                <div class="product product--sale">
+                    <div class="product__img">
+                        <img src="img/samorez.jpg" alt="">
+                    </div>
+                    <div class="product__title js-product-title">
+                        Продукт 3
+                    </div>
+                    <div class="product__price">
+                        30 грн
+                    </div>
+                    <button class="product__button js-product-button">
+                        Купить
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+
+        </div>
+    </footer>
+    <div class="popup js-popup">
+        <div class="popup__title js-popup-title">title</div>
+        <button class="button button--open js-add-product">
+            Добавить
+        </button>
+        <button class="button button--close js-popup-close">
+            Закрыть
+        </button>
+    </div>
+    <script type="text/javascript" src="js/scripts.js">
+
+    </script>
+</body>
+</html>
